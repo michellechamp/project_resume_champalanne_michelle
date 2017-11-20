@@ -1,0 +1,61 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+#container {
+    width: 100%;
+    margin: auto;
+    background-color: white;
+}
+
+section {
+    width: 100%;
+}
+
+article {
+    background-color: #b5d1e0;
+    text-align: center;
+    margin: auto;
+    margin-top: 3%;
+    padding: 2%;
+    color: white;
+    width: 60%;
+}
+
+p {
+    padding: 1%;
+}
+
+h1 {
+    color: #2d4772;
+    text-align: center;
+}
+
+h2 {
+    color: #e8f4fc;
+}
+
+h3 {
+    color: #2d4772;
+    padding: 2%;
+}
+
+.date {
+    color: #68a4cc;
+}
+
+ul {
+    width: 60%;
+    margin: auto;
+}
+
+li {
+    list-style-type: disc;
+    color: #68a4cc;
+}
+
+img {
+    max-width: 200px;
+}
