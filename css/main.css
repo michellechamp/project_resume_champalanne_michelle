@@ -73,6 +73,15 @@ img {
     max-width: 200px;
 }
 
+#design, #design h2 {
+    padding: 2%;
+}
+
+
+#design img, #me img {
+    max-width: 150px;
+}
+
 @media (min-width: 500px) {
 
     #container {
@@ -110,6 +119,12 @@ img {
         margin-right: 5%;
     }
 
+    #design {
+        background-color: #2d4772;
+        clear: both;
+        padding-top: 5%;
+    }
+
 }
 
 @media (min-width: 900px) {
@@ -143,6 +158,10 @@ img {
 
     #contact {
         background-color: #2d4772;
+    }
+
+    #design {
+        background-color: #b5d1e0;
     }
 
 }
