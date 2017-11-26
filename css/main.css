@@ -72,3 +72,77 @@ li {
 img {
     max-width: 200px;
 }
+
+@media (min-width: 500px) {
+
+    #container {
+        width: 100%;
+        overflow-x: hidden;
+        background-color: #2d4772;
+    }
+
+    h1 {
+        color: white;
+    }
+
+    #about {
+        background-color: white;
+        color: #2d4772;
+        width: 100%;
+    }
+
+    #resume, #contact {
+        width: 50%;
+        float: left;
+        clear: both;
+    }
+
+    #contact {
+        clear: both;
+        width: 100%;
+        text-align: center;
+
+    }
+
+    #skills, #me {
+        width: 30%;
+        float: right;
+        margin-right: 5%;
+    }
+
+}
+
+@media (min-width: 900px) {
+
+    #container {
+        background-color: #b5d1e0;
+    }
+
+    h1 {
+        color: #2d4772;
+    }
+
+    #top {
+        background-color: white;
+    }
+
+    #about {
+        color: white;
+        width: 70%;
+    }
+
+    #about, #skills {
+        background-color: #2d4772;
+    }
+
+    #resume {
+        border-width: 2px;
+        border-style: solid;
+        border-color: #2d4772;
+    }
+
+    #contact {
+        background-color: #2d4772;
+    }
+
+}
