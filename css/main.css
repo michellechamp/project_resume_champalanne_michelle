@@ -10,6 +10,19 @@
     background-color: white;
 }
 
+nav {
+    text-align: center;
+}
+
+nav ul, nav ul li, nav ul li a:link, nav ul li a:visited {
+    list-style-type: none;
+    color: #b5d1e0;
+    font-size: 1.07em;
+    display: inline;
+    padding: 1%;
+    text-decoration: none;
+}
+
 section {
     width: 100%;
 }

@@ -9,11 +9,26 @@
     <link rel="stylesheet" href="css/main.css">
 </head>
 <body id="container">
-    <header>
+    <header id="home">
         <h1>Michelle Champalanne Resume</h1>
     </header>
+    <nav>
+            <div id="menu">
+                <ul>
+                    <li><a href="#home" class="smoothScroll">HOME</a></li>
+                    <li><a href="#about" class="smoothScroll">ABOUT</a></li>
+                    <li><a href="#resume" class="smoothScroll">RESUME</a></li>
+                    <li><a href="#contact" class="smoothScroll">CONTACT</a></li>
+                </ul>
+            </div>
+        </nav>
     <section>
-        <article>
+        <article id="about">
+            <h2>About</h2>
+            <p>Welcome to my portfolio website. Here you can see my web design tricks and skills.</p>
+			<p>Please take a look around.</p>
+        </article>
+        <article id="resume">
             <h2>Work Experience</h2>
             <h3>Traffic Manager, Publishers Alliance</h3>
             <p class="date">2016-now</p>
@@ -48,7 +63,7 @@
         <article>
             <img src="img/me.jpg" alt="Michelle Champalanne" title="Michelle Champalanne">
         </article>
-        <article>
+        <article id="contact">
             <h2>Contact Me</h2>
             <p>Phone: 123-456-7890</p>
             <p>Email: info@me.com</p>
@@ -56,8 +71,9 @@
     </section>
 
     <script src="js/jquery.min.js"></script>
-    <script src="jquery.backstretch.min.js"></script>
-    <script src="js/smoothscroll.js"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+    <!-- <script src="jquery.backstretch.min.js"></script> -->
+    <script type="text/javascript" src="js/smoothscroll.js"></script>
     <script src="js/main.js"></script>
 </body>
 </html>
