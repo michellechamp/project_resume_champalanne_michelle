@@ -18,3 +18,5 @@ Resources:
     - Class notes helped me create custom jQuery code
     - Can be found by clicking on main header, Michelle Champalanne, at top of the page
         - Changes text to Michelle Champalanne's Resume
+
+I reviewed the list of deductions for this project and in the syllabus.
